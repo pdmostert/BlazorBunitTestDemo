@@ -6,7 +6,7 @@ using BlazzorApp.Components.Pages;
 
 namespace BlazorTest;
 
-public class CounterTests
+public class CounterTests: TestContext
 {
     [Fact]
     public void Counter_ShouldIncrement_WhenButtonClicked()

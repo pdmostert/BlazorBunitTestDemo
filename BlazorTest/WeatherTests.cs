@@ -8,7 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace BlazorTest;
 
-public class WeatherTests
+public class WeatherTests: TestContext
 {
     [Fact]
     public void WeatherComponent_ShouldShowLoadingInitially()
